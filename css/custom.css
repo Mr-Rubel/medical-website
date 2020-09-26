@@ -1,0 +1,326 @@
+/* maruf vai er code start */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+*{padding:0;margin:0;}
+ul{list-style:none;}
+a{font-family: 'Open Sans', sans-serif;}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
+
+/*== Top mnavbar == */
+#top-bar{position:relative;border-bottom:1px solid #00000024;}
+a.nav-btn-text {
+    margin-left: 48px;
+    text-decoration: none;
+    color:#000;
+    font-size: 13px;
+}
+i.far.fa-envelope.top-icon {
+    font-size: 20px;
+    background: #1a9bdc;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    position: absolute;
+}
+
+a.nav-btn-text {
+    margin-left: 48px;
+    text-decoration: none;
+}
+img.logo.img-fluid {
+    width: 175px;
+}
+span.down-text {
+    color: #555;
+}
+ul.top_nav_ul.d-none.d-md-block {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+/*== Navbar == */
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(26 155 220);
+}
+.navbar-light .navbar-nav .nav-link:hover{color:#1b9bdc}
+a.nav-link {
+    font-weight: bold;
+}
+span.navbar-text a {
+    background: transparent;
+    margin: 0 2px;
+    padding: 10px;
+    border-radius: 50%;
+    transition:0.4s;
+    
+}
+span.navbar-text a:hover{
+    background: #1b9bdc;
+    
+}
+span.navbar-text a:hover i{color:#fff;}
+
+/* == Showcase == */
+#showcase{
+    background-image:url('../images/header-slider.png');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    padding:100px 0;
+    height:80vh;
+    position:relative;
+}
+img.img-fluid.showcase-logo {
+    height: 22px;
+    width: 110px;
+    position: absolute;
+    left: 51%;
+    top: 84%;
+}
+h2.showcase-title {
+    font-weight: bold;
+}
+
+p.showcase-des {
+    margin: 30px 0;
+}
+
+a.btn.btn-primary.showcase-btn {
+    border-radius: 20px;
+    padding: 4px 20px;
+    background:#1a9bdc;
+    border:#1a9bdc;
+    -webkit-box-shadow: 0px 4px 25px 10px rgba(181,181,181,1);
+   -moz-box-shadow: 0px 4px 25px 10px rgba(181,181,181,1);
+   box-shadow: 0px 4px 25px 10px rgba(181,181,181,1);
+   transition:0.4s;
+}
+a.btn.btn-primary.showcase-btn:hover{
+    -webkit-box-shadow: 2px 4px 14px 5px rgba(143,143,143,1);
+    -moz-box-shadow: 2px 4px 14px 5px rgba(143,143,143,1);
+    box-shadow: 2px 4px 14px 5px rgba(143,143,143,1);
+}
+/*== Service ==*/
+#service{
+    background:#43b1d2; 
+}
+
+.bg-succes{background:#3FB6C6 !important;}
+.trd-col{background:#3CBBBB !important;}
+/*.four-col{background:#37C3A8 !important;}*/
+
+.four-col{position:relative;z-index:1}
+
+.col-md-3.four-col::after {
+    content: "";
+    position: absolute;
+    background: #37C3A8;
+    width: 136%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index:-1;
+}
+.service-box i {
+    font-size: 28px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 35px 0 10px 0;
+    color: black;
+}
+
+/*== Gallery ==*/
+#gallery{
+    background:url('../images/gallery-background.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding:50px 0;
+}
+
+/*=== Our team == */
+
+
+
+
+/*== Short section ==*/
+#readmore{
+    background:#e2e2e2;
+}
+#readmore h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+}
+.short-btn{
+    padding:4px 20px;
+    border-radius:20px;
+    background:#1a9bdc;
+    border:#1a9bdc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* maruf vai er code end*/
+.chooce{
+    padding: 50px 0 0 0;
+}
+.chooce-p {
+    margin: 0px 156px;
+}
+span.chooce-icon-box {
+    background: #1a9bdc;
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+    margin-right: 9px;
+}
+i.fas.fa-cog {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 30px;
+    color: white
+}
+.img-fluid.chooce-img {
+    height: 421px;
+}
+/* works area start */
+.works{
+    background-image: url('../images/work-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0px;
+    background-position: center center;
+}
+.works-h1{
+    position: relative
+}
+.work-img {
+    width: 65px;
+}
+.works-h1::before {
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 52px;
+    top: 100%;
+    left: 37%;
+    background-color: #fff;
+}
+/* works area end */
+
+/* how we work area start */
+.how-work{
+    padding: 40px 0px;
+
+}
+.how-work .card{
+    border: none;
+}
+.how-work .card .card-body{
+    margin-left: -20px;
+}
+button.btn.btn-success.btn-sm.text-uppercase.text-center {
+    border-radius: 17px;
+    -webkit-box-shadow: 1px 5px 25px 2px rgba(182,180,184,1);
+-moz-box-shadow: 1px 5px 25px 2px rgba(182,180,184,1);
+box-shadow: 1px 5px 25px 2px rgba(182,180,184,1);
+background-color: #0087be !important;
+}
+/* how we work area end */
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgb(255 255 255 / 3%);
+    border-bottom: 1px solid rgb(255 255 255 / 0%);
+}
+.card-header{
+    position: relative
+}
+i.fas.fa-play {
+    position: absolute;
+    top: 13px;
+    left: 0;
+}
+
+h2.mb-0 {
+    margin-top: -17px;
+}
+h2.mb-0:hover{
+    text-decoration: none !important;
+}
+i.fas.fa-play {
+    background: #fff;
+    padding: 7px;
+    border-radius: 50%;
+    color: #0087be;
+    margin-left: 13px;
+    margin-top: -7px;
+}
+.btn-link{
+
+}
+.btn-link:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+button.btn.btn-link.btn-block.text-left {
+    background: #0056b3;
+    color: white;
+    border-radius: 20px;
+    margin-top: 8px;
+    margin-left: -13px;
+    padding-left: 42px;
+}
+button.btn.btn-link.btn-block.text-left.collapsed {
+    color: black;
+    background: #dadada;
+}
+.footer-bottom{
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+}
+/* scroll to hide codes */
+.manu-top{
+    display: none;
+}
+.menubar-sticky{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: green;
+    transition: all .2s;
+    z-index: 10;
+    color: white;
+}
+
+
+/* scroll to hide codes */
